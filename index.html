@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaeze Ndupu's Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/501a409cb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Profile Card Container -->
+  <div class="profile-card">
+    <!-- Left Section -->
+    <div class="profile-left">
+      <!-- Profile Picture -->
+      <img src="/adaeze.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+      <!-- Full Name, designation, socials -->
+
+      <h1 data-testid="fullName">Adaeze Ndupu</h1>
+      <h2 data-testid="jobTitle">Frontend Developer</h2>
+      <div data-testid="socialLinks" class="social-links">
+        <a href="https://linkedin.com/in/adaeze-ndupu" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/vermilion4" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://x.com/what_is_a_swat" target="_blank">
+          <i class="fab fa-x-twitter"></i> X
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="profile-right">
+      <!-- Short Bio -->
+      <p data-testid="shortBio">
+        Passionate developer with expertise in modern web technologies.
+        Committed to creating efficient, scalable solutions and staying
+        current with industry trends. Always eager to learn and contribute
+        to innovative projects.
+      </p>
+      <!-- Current Location -->
+      <p data-testid="currentLocation">
+        <i class="fas fa-map-marker-alt"></i> Lagos, Nigeria
+      </p>
+
+      <!-- Email Address -->
+      <p data-testid="emailAddress">
+        <a href="mailto:andupu4@gmail.com">
+          <i class="fas fa-envelope"></i> andupu4@gmail.com
+        </a>
+      </p>
+      <!-- UTC Time -->
+      <p data-testid="currentTimeUTC" id="utcTime">
+        <i class="far fa-clock"></i> UTC Time: Loading...
+      </p>
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
